@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-hook-break-line",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react hook second array arguments should break line",
   "keywords": [
     "eslint",
@@ -9,6 +9,10 @@
   ],
   "author": "meerkat01",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meerkat-morecats/eslint-plugin-hook-break-line"
+  },
   "scripts": {
     "test": "mocha tests --recursive"
   },

@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/eslint-plugin-hook-break-line"),
+var rule = require("../../../lib/rules/deps-break-line"),
 
     RuleTester = require("eslint").RuleTester;
 
@@ -18,7 +18,7 @@ var rule = require("../../../lib/rules/eslint-plugin-hook-break-line"),
 //------------------------------------------------------------------------------
 
 var ruleTester = new RuleTester();
-ruleTester.run("eslint-plugin-hook-break-line", rule, {
+ruleTester.run("deps-break-line", rule, {
 
     valid: [
         "useDemo(\nargument1,\n[argument2]\n)",
@@ -34,6 +34,6 @@ ruleTester.run("eslint-plugin-hook-break-line", rule, {
             errors: [{
                 messageId: 'hookArgumentsBreakLine',
             }]
-        }
+        },
     ]
 });
