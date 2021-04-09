@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-hook-break-line",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "react hook second array arguments should break line",
   "keywords": [
     "eslint",
