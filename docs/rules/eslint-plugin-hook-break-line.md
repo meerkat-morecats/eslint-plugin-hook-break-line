@@ -12,6 +12,7 @@ Examples of **incorrect** code for this rule:
 ```js
 
 // fill me in
+useEffect(()=>{},[deps])
 
 ```
 
@@ -20,6 +21,10 @@ Examples of **correct** code for this rule:
 ```js
 
 // fill me in
+useEffect(
+    ()=>{},
+    [deps]
+)
 
 ```
 

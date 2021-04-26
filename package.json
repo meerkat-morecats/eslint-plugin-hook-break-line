@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-hook-break-line",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "if the last arguments(deps) is array, the hook`s arguments should in different line",
   "keywords": [
     "eslint",

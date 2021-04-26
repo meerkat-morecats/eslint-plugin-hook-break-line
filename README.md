@@ -33,7 +33,3 @@ $ npm install eslint-plugin-hook-break-line --save-dev
   }
 }
 ```
-
-## TODO
-
-- [ ] how to formatter with vscode
