@@ -1,6 +1,6 @@
 # eslint-plugin-hook-break-line
 
-react hook deps break line
+react hook with two arguments which the fist is function and the second is array should break line;
 
 ## Installation
 
