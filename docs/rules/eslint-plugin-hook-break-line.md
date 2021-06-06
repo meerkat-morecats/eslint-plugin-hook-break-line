@@ -10,17 +10,20 @@ This rule aims to...
 Examples of **incorrect** code for this rule:
 
 ```js
-
-// fill me in
 useEffect(()=>{},[deps])
 
+useEffect(
+    ()=>{},[deps])
+
+useEffect(
+    ()=>{},
+    [deps])
 ```
 
 Examples of **correct** code for this rule:
 
 ```js
 
-// fill me in
 useEffect(
     ()=>{},
     [deps]
